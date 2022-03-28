@@ -1,0 +1,230 @@
+*{
+    padding-left:20px ;
+    padding-right: 20px;
+}
+@font-face{
+    font-family:'KumbhSans-Bold';
+    src: url(../font/KumbhSans-Bold.ttf);
+}
+@font-face{
+    font-family:'KumbhSans-Regular' ;
+    src: url(../font/KumbhSans-Regular.ttf);
+}
+.logo{
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+padding: 3%;
+}
+a{ 
+    color: rgb(41, 27, 8);
+}
+.alwatan{
+  color: #092dc0;
+  direction:ltr;
+    font-family:kumbhSans-Bold ;
+    font-size: 20px;
+   word-spacing: 10px;
+   display: inline-block;
+width: 450px;
+}
+.site:hover{
+  color: rgb(0, 182, 55);
+}
+.header{
+    display: flex;
+}
+.task{
+    justify-content: space-between;
+}
+.main-header{
+    font-family:'KumbhSans-Bold' ;
+    font-size: 56px;
+    color: #333950;
+}
+.main-text{
+    font-family:'KumbhSans-Regular';
+    font-size: 18px;
+    color: #747B95;
+}
+.start-but{
+    background:#5175FF;
+    color:#fff;
+    text-transform: capitalize;
+    font-family: 'KumbhSans-Bold';
+    border:none;
+    font-size: 20px;
+    border-radius: 100px;
+    padding:18px;
+    width: 171px; 
+    height: 56px;
+    direction: center;
+    margin-top: 30px;
+}
+.img-logo{
+  padding-left: 800px;
+  margin-top: 30px;
+}
+.chart{
+  display: flex;
+}
+.my-plan{
+    background-color:#FFFFFF;
+   width: 350px;
+   height: 508px;
+   margin-right: 10px;
+   border-radius: 3%;
+   margin-bottom: 150px;
+}
+.my-plan:hover{
+    background-color: #5175FF;
+    color: #000000;
+}
+.plan{
+    font-family:'KumbhSans-Bold';
+    font-size: 20px;
+   text-align: center;
+   line-height:30px;
+   margin: 18px;
+}
+
+.number-user{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #333950;
+}
+.my-pro{
+    background-color:#ffffff;
+   width: 350px;
+   height: 508px;
+   margin-right: 10px;
+   border-radius: 3%;
+
+}
+.my-pro:hover{
+    background-color: #5175FF;
+    color: #000000;
+}
+.title{
+    font-family:'KumbhSans-Bold';
+    font-size: 20px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #333950;
+}
+.price{
+    font-family:'KumbhSans-Bold';
+    font-size: 50px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #333950;
+}
+.letter{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:30px;
+   margin: 30px;
+   color: #333950;
+
+}
+.words{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #333950;
+}
+.storage-GB{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #333950;
+}
+.control{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #333950;
+}
+.bton{
+    background-color:#FFFFFF ;
+    border-radius: 20px;
+    color: #5175FF;
+    direction: center;
+    padding: 18px;
+    margin-left:60px;
+    border:none; 
+    width: 171px; 
+    height: 56px;
+}
+.my-ultimate{
+    background-color: rgb(253, 255, 251);
+    width: 350px;
+    height: 508px;
+    margin-right: 10px;
+    border-radius: 3%;
+
+}
+.my-ultimate:hover{
+    background-color: #5175FF;
+    color: #000000;
+}
+.vip{
+    font-family:'KumbhSans-Regular';
+    font-size: 16px;
+   text-align: center;
+   line-height:20px;
+   margin: 30px;
+   color: #747B95;
+}
+.date{
+        color: #000000;
+        font-size: 16px;
+      font-family:'Kumbh-Sans-bold' ;
+        /* letter-spacing: 6px; */
+}
+.Nov{
+    color:#5175FF;
+    font-size: 16px;
+    font-family:'Kumbh-Sans-bold ';
+    letter-spacing: 3px;
+
+}
+.number{
+    display: flex;
+    justify-content: space-between;
+}
+.type{
+    background-color:#333950;
+    text-align: center;
+}
+.day{
+    color: #ffffff;
+    font-size: 56px;
+    background: #333950;
+}
+.hours{
+    font-size: 30px;
+    color: #747B95;
+}
+.bottom{
+    background-color:#5175FF;
+    border-radius: 20px;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 18px;
+    border:none; 
+    width: 171px; 
+    height: 56px;
+}
